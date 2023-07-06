@@ -1,8 +1,13 @@
 //DESC:Demonstrates passing method parameters
 public class MethodParameters
 {
-    public String join(String left, String right)
+    public static void main(String[] args)
     {
-        return left + "-" + right;
+        int result = add(1, 2);
+    }
+
+    public static int add(int a, int b)
+    {
+        return a + b;
     }
 }
