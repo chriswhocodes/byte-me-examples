@@ -1,11 +1,12 @@
-//DESC:Demonstrates switch expressions introduced in JDK14
+//DESC:Demonstrates switch expressions introduced by <a href="https://openjdk.org/jeps/361">JEP 361</a>
 //SINCE:14
-public class Jdk14Switches {
+public class SwitchExpressions
+{
     public static void main(String[] args) {
-        new Jdk14Switches();
+        new SwitchExpressions();
     }
 
-    public Jdk14Switches() {
+    public SwitchExpressions() {
         lookupSwitch(1);
 
         tableSwitch(1);
